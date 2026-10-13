@@ -1,0 +1,72 @@
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derbytools/10.17.1.0/derbytools-10.17.1.0.pom
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_3/4.3.0/scalikejdbc_3-4.3.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/derby/derbytools/10.17.1.0/derbytools-10.17.1.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_3/4.3.0/scalikejdbc_3-4.3.0.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.17.1.0/derby-project-10.17.1.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/derby/derby-project/10.17.1.0/derby-project-10.17.1.0.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/apache/26/apache-26.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/apache/26/apache-26.pom
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_3/4.3.0/scalikejdbc-core_3-4.3.0.pom
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_3/4.3.0/scalikejdbc-interpolation_3-4.3.0.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derbyshared/10.17.1.0/derbyshared-10.17.1.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/derby/derbyshared/10.17.1.0/derbyshared-10.17.1.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_3/4.3.0/scalikejdbc-interpolation_3-4.3.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_3/4.3.0/scalikejdbc-core_3-4.3.0.pom
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_3/4.3.0/scalikejdbc-interpolation-macro_3-4.3.0.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.11.0/commons-dbcp2-2.11.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.11.0/commons-dbcp2-2.11.0.pom
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_3/4.3.0/scalikejdbc-interpolation-macro_3-4.3.0.pom
+[info] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[info] downloaded https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[info] downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[info] downloaded https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_3/4.3.0/scalikejdbc-core_3-4.3.0.jar
+[info] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.11.0/commons-dbcp2-2.11.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derbyshared/10.17.1.0/derbyshared-10.17.1.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_3/4.3.0/scalikejdbc-interpolation-macro_3-4.3.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/derby/derbyshared/10.17.1.0/derbyshared-10.17.1.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[info] downloaded https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_3/4.3.0/scalikejdbc_3-4.3.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derbytools/10.17.1.0/derbytools-10.17.1.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_3/4.3.0/scalikejdbc_3-4.3.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_3/4.3.0/scalikejdbc-interpolation_3-4.3.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_3/4.3.0/scalikejdbc-interpolation-macro_3-4.3.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/derby/derbytools/10.17.1.0/derbytools-10.17.1.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.11.0/commons-dbcp2-2.11.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_3/4.3.0/scalikejdbc-core_3-4.3.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_3/4.3.0/scalikejdbc-interpolation_3-4.3.0.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0.jar
+[info] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derbytools/10.17.1.0/derbytools-10.17.1.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derbyshared/10.17.1.0/derbyshared-10.17.1.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.11.0/commons-dbcp2-2.11.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_3/4.3.0/scalikejdbc-interpolation-macro_3-4.3.0-sources.jar
+[info] downloaded https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_3/4.3.0/scalikejdbc-interpolation_3-4.3.0-sources.jar
+[info] downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.11.0/commons-dbcp2-2.11.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_3/4.3.0/scalikejdbc-core_3-4.3.0-sources.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_3/4.3.0/scalikejdbc-interpolation-macro_3-4.3.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13-sources.jar
+[info] downloading failed https://repo1.maven.org/maven2/org/apache/derby/derbyshared/10.17.1.0/derbyshared-10.17.1.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_3/4.3.0/scalikejdbc_3-4.3.0-sources.jar
+[info] downloading failed https://repo1.maven.org/maven2/org/apache/derby/derbytools/10.17.1.0/derbytools-10.17.1.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derbyshared/10.17.1.0/derbyshared-10.17.1.0-sources.jar.sha1
+[info] downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derbytools/10.17.1.0/derbytools-10.17.1.0-sources.jar.sha1
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_3/4.3.0/scalikejdbc_3-4.3.0-sources.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_3/4.3.0/scalikejdbc-interpolation_3-4.3.0-sources.jar
+[info] downloaded https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_3/4.3.0/scalikejdbc-core_3-4.3.0-sources.jar
+[info] downloading failed https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0-sources.jar.sha1
+[info] downloading failed https://repo1.maven.org/maven2/org/apache/derby/derbyshared/10.17.1.0/derbyshared-10.17.1.0-sources.jar.sha1
+[info] downloading failed https://repo1.maven.org/maven2/org/apache/derby/derbytools/10.17.1.0/derbytools-10.17.1.0-sources.jar.sha1
+[info] downloading failed https://repo1.maven.org/maven2/org/apache/derby/derby/10.17.1.0/derby-10.17.1.0-sources.jar.sha1
