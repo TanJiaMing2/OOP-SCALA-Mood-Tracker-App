@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>build.sbt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #6aab73;}
+.s2 { color: #cf8e6d;}
+.s3 { color: #bcbec4;}
+.s4 { color: #7a7e85;}
+.s5 { color: #00b8bb; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+build.sbt</font>
+</center></td></tr></table>
+<pre>
+<span class="s0">ThisBuild / version := </span><span class="s1">&quot;0.1.0-SNAPSHOT&quot;</span>
+
+<span class="s0">ThisBuild / scalaVersion := </span><span class="s1">&quot;3.3.4&quot;</span>
+
+<span class="s2">lazy val </span><span class="s3">root = (</span><span class="s0">project in file</span><span class="s3">(</span><span class="s1">&quot;.&quot;</span><span class="s3">))</span>
+  <span class="s3">.</span><span class="s0">settings</span><span class="s3">(</span>
+    <span class="s0">name := </span><span class="s1">&quot;introtosclafx&quot;</span><span class="s3">,</span>
+    <span class="s0">libraryDependencies ++= </span><span class="s3">{</span>
+      <span class="s4">// Determine OS version of JavaFX binaries</span>
+      <span class="s2">val </span><span class="s3">osName = </span><span class="s0">System</span><span class="s3">.</span><span class="s0">getProperty</span><span class="s3">(</span><span class="s1">&quot;os.name&quot;</span><span class="s3">) </span><span class="s2">match </span><span class="s3">{</span>
+        <span class="s2">case </span><span class="s0">n </span><span class="s2">if </span><span class="s0">n</span><span class="s3">.</span><span class="s0">startsWith</span><span class="s3">(</span><span class="s1">&quot;Linux&quot;</span><span class="s3">)   =&gt; </span><span class="s1">&quot;linux&quot;</span>
+        <span class="s2">case </span><span class="s0">n </span><span class="s2">if </span><span class="s0">n</span><span class="s3">.</span><span class="s0">startsWith</span><span class="s3">(</span><span class="s1">&quot;Mac&quot;</span><span class="s3">)     =&gt; </span><span class="s1">&quot;mac&quot;</span>
+        <span class="s2">case </span><span class="s0">n </span><span class="s2">if </span><span class="s0">n</span><span class="s3">.</span><span class="s0">startsWith</span><span class="s3">(</span><span class="s1">&quot;Windows&quot;</span><span class="s3">) =&gt; </span><span class="s1">&quot;win&quot;</span>
+        <span class="s2">case </span><span class="s0">_                            </span><span class="s3">=&gt; </span><span class="s2">throw new </span><span class="s0">Exception</span><span class="s3">(</span><span class="s1">&quot;Unknown platform!&quot;</span><span class="s3">)</span>
+      <span class="s3">}</span>
+      <span class="s0">Seq</span><span class="s3">(</span><span class="s1">&quot;base&quot;</span><span class="s3">, </span><span class="s1">&quot;controls&quot;</span><span class="s3">, </span><span class="s1">&quot;fxml&quot;</span><span class="s3">, </span><span class="s1">&quot;graphics&quot;</span><span class="s3">, </span><span class="s1">&quot;media&quot;</span><span class="s3">, </span><span class="s1">&quot;swing&quot;</span><span class="s3">, </span><span class="s1">&quot;web&quot;</span><span class="s3">)</span>
+        <span class="s3">.</span><span class="s0">map</span><span class="s3">(</span><span class="s0">m </span><span class="s3">=&gt; </span><span class="s1">&quot;org.openjfx&quot; </span><span class="s0">% </span><span class="s1">s&quot;javafx-</span><span class="s5">$</span><span class="s0">m</span><span class="s1">&quot; </span><span class="s0">% </span><span class="s1">&quot;21.0.4&quot; </span><span class="s0">classifier osName</span><span class="s3">)</span>
+    <span class="s3">},</span>
+    <span class="s0">libraryDependencies ++= Seq</span><span class="s3">(</span><span class="s1">&quot;org.scalafx&quot; </span><span class="s0">%% </span><span class="s1">&quot;scalafx&quot; </span><span class="s0">% </span><span class="s1">&quot;21.0.0-R32&quot;</span><span class="s3">,</span>
+      <span class="s1">&quot;org.apache.derby&quot; </span><span class="s0">% </span><span class="s1">&quot;derby&quot; </span><span class="s0">% </span><span class="s1">&quot;10.14.2.0&quot;</span><span class="s3">,</span>
+      <span class="s1">&quot;org.scalikejdbc&quot; </span><span class="s0">%% </span><span class="s1">&quot;scalikejdbc&quot;       </span><span class="s0">% </span><span class="s1">&quot;4.3.5&quot;</span><span class="s3">,</span>
+      <span class="s1">&quot;com.h2database&quot;  </span><span class="s0">%  </span><span class="s1">&quot;h2&quot;                </span><span class="s0">% </span><span class="s1">&quot;2.2.224&quot;</span><span class="s3">,</span>
+      <span class="s1">&quot;ch.qos.logback&quot;  </span><span class="s0">%  </span><span class="s1">&quot;logback-classic&quot;   </span><span class="s0">% </span><span class="s1">&quot;1.5.6&quot;</span><span class="s3">)</span>
+  <span class="s3">)</span>
+<span class="s4">//enable for sbt-assembly</span>
+<span class="s4">//assembly / assemblyMergeStrategy := {</span>
+<span class="s4">//  case PathList(&quot;META-INF&quot;, xs @ _*) =&gt; MergeStrategy.discard // Discard all META-INF files</span>
+<span class="s4">//  case PathList(&quot;reference.conf&quot;)    =&gt; MergeStrategy.concat  // Concatenate config files</span>
+<span class="s4">//  case PathList(ps @ _*) if ps.last.endsWith(&quot;.class&quot;) =&gt; MergeStrategy.first // Take the first class file</span>
+<span class="s4">//  case _ =&gt; MergeStrategy.first // Apply first strategy to any other file</span>
+<span class="s4">//}</span>
+</pre>
+</body>
+</html>
